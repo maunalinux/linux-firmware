@@ -1,0 +1,7 @@
+linux-firmware (20231030~mauna1) mauna; urgency=medium
+
+  * Initial release to replace firmware-nonfree source package created by
+    Debian Kernel team
+
+ -- Mauna Linux <dev@maunalinux.top>  Fri, 10 Nov 2023 12:29:04 -0300
+

@@ -1,0 +1,7 @@
+debian/linux-firmware-*/
+debian/files
+dist/
+release/
+contrib/*.db
+contrib/*.txt
+
