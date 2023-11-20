@@ -1,5 +1,9 @@
 debian/linux-firmware-*/
 debian/files
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/*.substvars
+generated-firmwares/
 dist/
 release/
 contrib/*.db
