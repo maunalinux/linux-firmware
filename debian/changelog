@@ -1,3 +1,9 @@
+linux-firmware (20231211~mauna1) mauna; urgency=medium
+
+  * Import the 20231211 upstream 
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 20 Dec 2023 20:44:40 -0300
+
 linux-firmware (20231030~mauna1) mauna; urgency=medium
 
   * Initial release to replace firmware-nonfree source package created by
