@@ -183,6 +183,12 @@ Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree
 Description: Binary firmware for Intel OPA Gen 1 adapter
 
+Package: linux-firmware-intel-i915
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for i915 - Intel Integrated Graphics driver
+
 Package: linux-firmware-intel-iscsi
 Architecture: all
 Depends: ${misc:Depends}
