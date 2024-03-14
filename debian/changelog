@@ -1,3 +1,9 @@
+linux-firmware (20240312~mauna1) mauna; urgency=medium
+
+  * Import the 20240312 upstream
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 14 Mar 2024 15:16:58 -0300
+
 linux-firmware (20240115~mauna1) mauna; urgency=medium
 
   * Import the 20240115 upstream
