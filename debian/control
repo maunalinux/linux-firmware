@@ -2,7 +2,7 @@ Source: linux-firmware
 Section: non-free-firmware/kernel
 Priority: optional
 Maintainer: Mauna Linux <dev@maunalinux.top>
-Build-Depends: debhelper-compat (= 13), rdfind
+Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.1
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Vcs-Browser: https://github.com/maunalinux/linux-firmware
@@ -31,7 +31,8 @@ Package: linux-firmware-airoha
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
-Description: Binary firmware for en8811h 2.5G ethernet phy
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Airoha devices
 
 Package: linux-firmware-alacritech
 Architecture: all
@@ -183,12 +184,6 @@ Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree
 Description: Binary firmware for Intel OPA Gen 1 adapter
 
-Package: linux-firmware-intel-i915
-Architecture: all
-Depends: ${misc:Depends}
-Suggests: initramfs-tools
-Description: Binary firmware for i915 - Intel Integrated Graphics driver
-
 Package: linux-firmware-intel-iscsi
 Architecture: all
 Depends: ${misc:Depends}
@@ -209,6 +204,13 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-intel-sound
 Description: Binary firmware for Intel sound devices
+
+Package: linux-firmware-intel-vsc
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-iwlwifi
+Description: Binary firmware for Intel Visual Sensing Controller
 
 Package: linux-firmware-iwlwifi
 Architecture: all
@@ -297,6 +299,13 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-linux-free
 Description: Binary firmware for PCMCIA devices
+
+Package: linux-firmware-powervr
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-linux-free
+Description: Binary firmware for the PowerVR driver
 
 Package: linux-firmware-qlogic
 Architecture: all
@@ -404,3 +413,4 @@ Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Description: Binary firmware for Silicon Labs Wi-Fi Transceiver
+
