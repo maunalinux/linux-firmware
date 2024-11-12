@@ -9,3 +9,12 @@ release/
 contrib/*.db
 contrib/*.txt
 
+# Normal intermediate files
+*.orig
+*.patch
+*.rej
+.gitlab-ci.yml
+.pre-commit-config.yaml
+.editorconfig
+
+
